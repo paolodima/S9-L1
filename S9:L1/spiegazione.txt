@@ -1,0 +1,7 @@
+La prima scansione eseguita, con il firewall disattivato  ci mostra tutti i servizi aperti 
+con le relative porte senza alcun tipo di problema.
+Come possiamo vedere dalle immagine in allegato ci accorgiamo che nel momento in cui il 
+firewall é attivo, quando andiamo a fare la scansione ci dice che l'host sembra non essere attivo.
+Questo perché molto probabilmente vi é presente una regola di firewall che blocca il nostro ping, infatti,
+nel momento in cui eseguiamo nuovamente la scansione aggiungendo lo switch -Pn il risultato della scansione 
+é lo stesso della scansione con il firewall disattivato.
